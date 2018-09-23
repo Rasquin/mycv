@@ -57,7 +57,7 @@ header {
 @media (min-width: 768px) {
     .col-md-12 {
         position: relative;
-        width: 24% ;
+        width: 24%;
         min-height: 1px;
     }
 }
@@ -84,11 +84,13 @@ header {
     text-decoration: none;
     width: 100%;
 }
-.menuitem a i{
+
+.menuitem a i {
     padding-top: 22px;
     display: block;
     font-size: 26px;
 }
+
 .menuitem a span {
     display: block;
     width: 100%;
@@ -99,6 +101,8 @@ header {
     letter-spacing: 2px;
 }
 
+
+/*---------------------------------colors*/
 .ui-menu-color-home {
     background-color: #1E90FF;
 }
@@ -120,4 +124,118 @@ header {
 
 .ui-menu-color-download {
     background-color: #87CEFA;
+}
+
+.bg-color-three-reasons{
+    background-color: #E0FFFF;
+}
+
+/*--------------------special margins, paddings, text....*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+    color: #fafafa;
+}
+
+.section-column{
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+}
+.row-table {
+    display: table;
+}
+
+.section-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/*------------------------------------3 REASONS WHY*/
+
+.three-reasons-icon{
+    font-size: 26px;
+    color: #000080;
+}
+
+.three-reasons-heading{
+    margin-bottom: 15px;
+  
+}
+/*------------------------------------FOOTER*/
+
+footer {
+    background-color: #000080;
+    min-height: 120px;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+footer .cvpdf i {
+    color: #fafafa;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+footer .cvpdf i:hover {
+    color: #00FFFF;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.social-links li a i {
+    width: 32px;
+    color: #000080;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    background-color: #eedba2;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #00FFFF;
+    background-color: #000080;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+#footer-details{
+    margin: 20px;
 }

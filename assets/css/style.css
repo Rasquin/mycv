@@ -128,13 +128,16 @@ header {
 .ui-menu-color-contact {
     background-color: #00CED1;
 }
+.bg-color-contact{
+    background-color: #F0FFFF;
+}
 
 .ui-menu-color-download {
     background-color: #87CEFA;
 }
 
 .bg-color-three-reasons{
-    background-color: ##F0FFFF;
+    background-color: #F0FFFF;
 }
 
 
@@ -297,6 +300,32 @@ h5 {
     border-radius: 12px;
     content: '';
     background-color: #000080;
+}
+/*------------------------------------Contacts*/
+
+.contact-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+.boton{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #ccfeff;
+    color: #000080;
+     transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.boton:hover{
+    background-color: #00fbff;
 }
 /*------------------------------------FOOTER*/
 
